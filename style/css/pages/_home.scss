@@ -134,6 +134,12 @@ a.language {
   padding: 5px;
 }
 @media (max-width: 500px) {
+  a.nav-link.scrollto {
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    // background-color: #00805d;
+    // color: #00805d;
+  }
   .translate {
     margin-left: 5rem;
   }
