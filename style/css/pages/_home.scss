@@ -94,9 +94,10 @@
       padding-right: 28rem;
     }
   }
-  @media (max-width: 550px) {
+  @media (max-width: 500px) {
     .navbar-brand {
-      padding-right: 4rem;
+      // padding-left: 9rem;
+      padding-right: 7rem;
     }
   }
 }
@@ -133,10 +134,24 @@ a.language {
   margin: auto;
   padding: 5px;
 }
+
 @media (max-width: 500px) {
+  #navbar.container-fluid {
+    margin: auto;
+    align-items: center;
+    align-content: center;
+  }
+  a.nav-link.scrollto.rounded-2.active {
+    color: #fff;
+    background: #fdbb6b;
+    padding: 10px 20px 10px 20px;
+    // width: 170px;
+  }
   a.nav-link.scrollto {
     margin: auto;
-    padding: 10px 20px 10px 20px;
+    // padding: 10px 20px 10px 20px;
+    width: 100px;
+    text-align: center;
     // background-color: #00805d;
     // color: #00805d;
   }
