@@ -97,13 +97,16 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
   .internasional-image {
-    margin: auto;
+    margin: 0 auto; /* Gambar secara otomatis berada di tengah */
     align-items: center;
     align-content: center;
     width: 200px;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem; /* Jarak bawah gambar */
+    display: block; /* Menampilkan gambar dalam blok agar margin berfungsi */
   }
+
   .card {
     padding: 30px;
   }
