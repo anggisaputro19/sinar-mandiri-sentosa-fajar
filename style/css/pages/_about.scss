@@ -99,11 +99,11 @@
   }
 
   .internasional-image {
-    margin: 0 auto; /* Gambar secara otomatis berada di tengah */
+    // margin: 0 auto; /* Gambar secara otomatis berada di tengah */
     align-items: center;
     align-content: center;
-    width: 200px;
-    padding-bottom: 1rem; /* Jarak bawah gambar */
+    width: 100px;
+    // padding-bottom: 1rem; /* Jarak bawah gambar */
     display: block; /* Menampilkan gambar dalam blok agar margin berfungsi */
   }
 
@@ -113,7 +113,7 @@
 }
 .client-image {
   width: 1020px;
-  padding-bottom: 30px;
+  // padding-bottom: 30px;
   margin: auto;
 }
 .client-title {
